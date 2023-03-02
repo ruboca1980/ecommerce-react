@@ -1,0 +1,37 @@
+.purchase{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+}
+
+.purchase__img-cont{
+    max-width: 100px;
+}
+
+.purchase__img{
+    width: 100%;
+}
+
+.purchase__title,
+.purchase__quantity,
+.purchase__price{
+    width: 200px;
+}
+
+.purchase__title{
+    font-size: 0.7rem;
+    padding: 0 0.5rem;
+}
+
+.purchase__quantity{
+    text-align: center;
+}
+
+.purchase__quantity-number{
+    width: 50%;
+    border: 1px solid #a7a7a7;
+    margin: 0 auto;
+}
