@@ -40,7 +40,7 @@ const LoginPage = () => {
   if (localStorage.getItem('name')) {
     return (
       <div className="perfil">
-        <img className="perfil__img" src="../../public/images/16-my-account-login.png" alt="cr" />
+        <img className="perfil__img" src="/images/16-my-account-login.png" alt="cr" />
         <h2 className="perfil__name"> {localStorage.getItem('name')}</h2>
         <button className="btn" onClick={handleClick}>logout</button>
       </div>
