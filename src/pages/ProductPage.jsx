@@ -12,7 +12,7 @@ const ProductPage = () => {
   const [product, setProduct] = useState()
 
   useEffect(()=>{
-    const url = `http://e-commerce-api-v2.academlo.tech/api/v1/products/${id}`
+    const url = `https://e-commerce-api-v2.academlo.tech/api/v1/products/${id}`
     axios.get(url)
       .then(res=>setProduct(res.data))
       .catch(err=>console.log(err))
